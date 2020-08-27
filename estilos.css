@@ -1,0 +1,59 @@
+
+#content{
+    width: 400px;
+    background: rgb(165, 35, 100);
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+body{
+    background-image: url('img/fondo5.jpg');
+    background-size: cover;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+#lista{
+    font-size: 28px;
+    color: rgba(216, 149, 3, 0.993);
+    text-align: center;
+    font-family: "Snap ITC";  
+}
+
+
+#botones div input[type="button"],
+#botones div button{
+    width: 50%;
+    height: 60px;
+    font-family: "Forte";
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(160, 24, 99);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botones input, labe{
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+#botones :hover{
+    font-size: 30px;
+    color: rgb(216, 216, 61);
+    text-shadow: 0px 2px 30px black;
+}
